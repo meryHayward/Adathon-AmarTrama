@@ -5,6 +5,8 @@
     background-color: #f3e7e0;
     width: 100vw;
     height: 100vh;
+    padding:10px;
+    margin:0;
 }
 
 .modal{
@@ -12,21 +14,24 @@
     z-index: 100;
     position: fixed;
     left: calc(50vw - 300px);
-    top: 50vw;
-    border-radius: 4px;
-    padding: 15px;
+    top: 30vw;
+    /* border-radius: 4px; */
+    /* padding: 15px; */
     box-sizing: border-box;
-    color: black;
+ /*    color: black; */
     header {
-        padding: 10px;
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    text-align: center;
         h2 {
             margin : 0;
             letter-spacing: 5px;
             padding: 10px;
+            text-align: center;
         }
         p{
             font-size: 20px;
@@ -36,9 +41,9 @@
             }
         }   
         img{
-            position: absolute;
+            position: relative;
             width:180px;
-            top: 290px;
+            top: 300px;
         }
     }
 }
