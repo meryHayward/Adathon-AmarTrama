@@ -1,0 +1,44 @@
+.overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #f3e7e0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal{
+    width: 600px;
+    z-index: 100;
+    position: fixed;
+    left: calc(50vw - 300px);
+    top: 50vw;
+    border-radius: 4px;
+    padding: 15px;
+    box-sizing: border-box;
+    color: black;
+    header {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        h2 {
+            margin : 0;
+            letter-spacing: 5px;
+            padding: 10px;
+        }
+        p{
+            font-size: 20px;
+            letter-spacing: 3px; 
+            &:nth-child(1){
+            margin-left: -103px;
+            }
+        }   
+        img{
+            position: absolute;
+            width:180px;
+            top: 290px;
+        }
+    }
+}
