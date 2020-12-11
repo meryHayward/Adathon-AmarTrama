@@ -3,7 +3,7 @@ import niwok from './img/logoNiwok.png';
 import './Modal.scss';
 
 
-const Modal = ({ title, children, close }) => {
+const Modal = () => {
     return (
         <React.Fragment>
             <div className="overlay"></div>

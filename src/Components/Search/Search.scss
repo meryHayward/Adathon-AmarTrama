@@ -1,0 +1,28 @@
+  .search-container {
+        width: 400px;
+        padding: 4px 15px;
+          @media (min-width: 600px) {
+    .search-container {
+       top:0;
+           }
+    }
+     .search-container-button{
+            font-size: 27px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: rgb(220, 221, 222);
+        }
+        .search-container-input {
+            padding: 15px 10px;
+            background-color: transparent;
+            border: none;
+            font-size: 20px;
+            @media (min-width: 600px) {
+    .search-container-input {
+        display:flex;
+        width: 100%;
+    }
+            }
+        }
+    }

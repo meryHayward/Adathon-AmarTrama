@@ -1,11 +1,13 @@
 import React from "react";
 import './MainContent.scss';
+import Header from "../Header/Header";
+import Search from "../Search/Search";
 
 const MainContent = () => {
     return (
         <React.Fragment>
-            <header><h2>
-            </h2></header>
+            <Header />
+            <Search />
         </React.Fragment>
     )
 };

@@ -20,12 +20,10 @@
     box-sizing: border-box;
  /*    color: black; */
     header {
-        display: flex;
+    display: flex;
 	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
-    align-content: center;
     text-align: center;
         h2 {
             margin : 0;
@@ -43,7 +41,7 @@
         img{
             position: relative;
             width:180px;
-            top: 300px;
+            top: 200px;
         }
     }
 }
